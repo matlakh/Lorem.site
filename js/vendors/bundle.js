@@ -97,7 +97,7 @@ function createProduct(productData) {
                         class: 'action__item'
                     }).append(
                         $('<img/>', {
-                            src: '../img/share.svg',
+                            src: './img/share.svg',
                             alt: 'share'
                         }),
                         $('<button class="share-button" onclick="showPropertyShare()">Share</button>')
@@ -106,7 +106,7 @@ function createProduct(productData) {
                         class: 'action__item'
                     }).append(
                         $('<img/>', {
-                            src: '../img/white_heart.svg',
+                            src: './img/white_heart.svg',
                             alt: 'white_heart'
                         }),
                         $('<button class="like-button" onclick="showPropertyLike()">Like</button>')
